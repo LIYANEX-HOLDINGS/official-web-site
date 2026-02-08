@@ -1,0 +1,348 @@
+/* Services Section */
+#services {
+    width: 100%;
+    padding: 120px 80px;
+    background: linear-gradient(135deg, #fff 0%, #f5f7fa 100%);
+}
+
+#services > div {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+#services h2 {
+    font-size: 56px;
+    font-weight: 700;
+    color: #2E2325;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#services h2 span {
+    color: #F97A00;
+}
+
+.services-intro {
+    text-align: center;
+    font-size: 20px;
+    color: #86898C;
+    margin-bottom: 70px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.service-card {
+    background: white;
+    padding: 45px 35px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid transparent;
+}
+
+.service-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(90deg, #F97A00 0%, #C5E44B 100%);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.4s ease;
+}
+
+.service-card:hover::before {
+    transform: scaleX(1);
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 50px rgba(249, 122, 0, 0.15);
+    border-color: #F97A00;
+}
+
+.service-icon {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #FFF5ED 0%, #FFE8D6 100%);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    transition: all 0.4s ease;
+}
+
+.service-card:hover .service-icon {
+    background: linear-gradient(135deg, #F97A00 0%, #ff8c1a 100%);
+    transform: scale(1.1) rotate(5deg);
+}
+
+.service-card:hover .service-icon svg path {
+    fill: white;
+}
+
+.service-icon svg {
+    width: 45px;
+    height: 45px;
+}
+
+.service-card h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #2E2325;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.4;
+}
+
+.service-card p {
+    font-size: 15px;
+    color: #86898C;
+    line-height: 1.7;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1280px) {
+    #services {
+        padding: 100px 60px;
+    }
+
+    #services h2 {
+        font-size: 48px;
+    }
+
+    .services-intro {
+        font-size: 18px;
+        margin-bottom: 60px;
+    }
+
+    .services-grid {
+        gap: 35px;
+    }
+
+    .service-card {
+        padding: 40px 30px;
+    }
+
+    .service-card h3 {
+        font-size: 20px;
+    }
+
+    .service-card p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #services {
+        padding: 80px 50px;
+    }
+
+    #services h2 {
+        font-size: 42px;
+    }
+
+    .services-intro {
+        font-size: 17px;
+        margin-bottom: 50px;
+    }
+
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .service-card {
+        padding: 35px 28px;
+    }
+
+    .service-icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    .service-icon svg {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #services {
+        padding: 70px 40px;
+    }
+
+    #services h2 {
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+
+    .services-intro {
+        font-size: 16px;
+        margin-bottom: 45px;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .service-card {
+        padding: 30px 25px;
+    }
+
+    .service-card h3 {
+        font-size: 19px;
+        margin-bottom: 12px;
+    }
+
+    .service-card p {
+        font-size: 14px;
+    }
+
+    .service-icon {
+        width: 65px;
+        height: 65px;
+    }
+
+    .service-icon svg {
+        width: 38px;
+        height: 38px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    #services {
+        padding: 60px 30px;
+    }
+
+    #services h2 {
+        font-size: 30px;
+    }
+
+    .services-intro {
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+
+    .services-grid {
+        gap: 20px;
+    }
+
+    .service-card {
+        padding: 28px 22px;
+    }
+
+    .service-card h3 {
+        font-size: 18px;
+    }
+
+    .service-card p {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+
+    .service-icon {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 20px;
+    }
+
+    .service-icon svg {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #services {
+        padding: 50px 20px;
+    }
+
+    #services h2 {
+        font-size: 26px;
+    }
+
+    .services-intro {
+        font-size: 14px;
+        margin-bottom: 35px;
+    }
+
+    .service-card {
+        padding: 25px 20px;
+        border-radius: 16px;
+    }
+
+    .service-card h3 {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+
+    .service-card p {
+        font-size: 12px;
+    }
+
+    .service-icon {
+        width: 55px;
+        height: 55px;
+        border-radius: 12px;
+    }
+
+    .service-icon svg {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #services {
+        padding: 45px 20px;
+    }
+
+    #services h2 {
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+
+    .services-intro {
+        font-size: 13px;
+        margin-bottom: 30px;
+    }
+
+    .service-card {
+        padding: 22px 18px;
+    }
+
+    .service-card h3 {
+        font-size: 16px;
+    }
+
+    .service-card p {
+        font-size: 11px;
+    }
+
+    .service-icon {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 18px;
+    }
+
+    .service-icon svg {
+        width: 30px;
+        height: 30px;
+    }
+}

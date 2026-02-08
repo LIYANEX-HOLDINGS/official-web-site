@@ -1,0 +1,428 @@
+/* About Section Responsive Styles */
+@media screen and (max-width: 1830px) {
+    #about-us > div {
+        padding: 100px 80px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    #about-us img {
+        width: 480px;
+    }
+
+    #about-us > div > :first-child {
+        gap: 60px;
+    }
+
+    #about-us > div > :first-child h2 {
+        font-size: 30px;
+    }
+
+    #about-us > div > :first-child p {
+        font-size: 15px;
+        width: 420px;
+        line-height: 26px;
+    }
+
+    #about-us > div > :last-child {
+        width: 700px;
+    }
+
+    #about-us > div > :last-child p {
+        font-size: 28px;
+        line-height: 36px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    #about-us img {
+        width: 420px;
+    }
+
+    #about-us > div > :first-child {
+        gap: 50px;
+    }
+
+    #about-us > div > :first-child h2 {
+        font-size: 28px;
+    }
+
+    #about-us > div > :first-child p {
+        font-size: 14px;
+        width: 380px;
+        line-height: 24px;
+    }
+
+    #about-us > div > :first-child button {
+        font-size: 15px;
+        padding: 7px 18px;
+        margin-top: 25px;
+    }
+
+    #about-us > div > :last-child {
+        width: 600px;
+        margin-top: 50px;
+    }
+
+    #about-us > div > :last-child svg {
+        width: 40px;
+        height: 40px;
+        top: 18px;
+        left: -35px;
+    }
+
+    #about-us > div > :last-child .right-cotation {
+        right: -10px;
+        top: 75px;
+    }
+
+    #about-us > div > :last-child h3 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    #about-us > div > :last-child p {
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    #about-us > div > :last-child .mission-statement {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #about-us > div {
+        padding: 80px 50px;
+    }
+
+    #about-us img {
+        width: 360px;
+    }
+
+    #about-us > div > :first-child {
+        gap: 40px;
+    }
+
+    #about-us > div > :first-child h2 {
+        font-size: 26px;
+    }
+
+    #about-us > div > :first-child p {
+        font-size: 13px;
+        width: 340px;
+        line-height: 22px;
+    }
+
+    #about-us > div > :last-child {
+        width: 520px;
+    }
+
+    #about-us > div > :last-child h3 {
+        font-size: 20px;
+    }
+
+    #about-us > div > :last-child p {
+        font-size: 24px;
+        line-height: 32px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #about-us > div {
+        padding: 70px 50px;
+    }
+
+    #about-us > div > :first-child {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    #about-us img {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    #about-us > div > :first-child h2 {
+        font-size: 28px;
+    }
+
+    #about-us > div > :first-child p {
+        width: 100%;
+        max-width: 600px;
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    #about-us > div > :last-child {
+        width: 100%;
+        max-width: 650px;
+        margin-top: 60px;
+    }
+
+    #about-us > div > :last-child p {
+        font-size: 26px;
+        line-height: 34px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #about-us > div {
+        padding: 60px 40px;
+    }
+
+    #about-us > div > :first-child h2 {
+        font-size: 24px;
+    }
+
+    #about-us > div > :first-child p {
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+    #about-us > div > :first-child button {
+        font-size: 14px;
+        padding: 6px 16px;
+        margin-top: 20px;
+    }
+
+    #about-us > div > :last-child {
+        max-width: 550px;
+        margin-top: 50px;
+    }
+
+    #about-us > div > :last-child svg {
+        width: 35px;
+        height: 35px;
+        top: 15px;
+        left: -30px;
+    }
+
+    #about-us > div > :last-child .right-cotation {
+        right: -8px;
+        top: 65px;
+    }
+
+    #about-us > div > :last-child h3 {
+        font-size: 18px;
+    }
+
+    #about-us > div > :last-child p {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    #about-us > div > :last-child .mission-statement {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    #about-us > div {
+        padding: 50px 30px;
+    }
+
+    #about-us img {
+        max-width: 400px;
+    }
+
+    #about-us > div > :first-child h2 {
+        font-size: 22px;
+    }
+
+    #about-us > div > :first-child p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    #about-us > div > :last-child {
+        max-width: 480px;
+        margin-top: 45px;
+    }
+
+    #about-us > div > :last-child h3 {
+        font-size: 17px;
+    }
+
+    #about-us > div > :last-child p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    #about-us > div {
+        padding: 40px 30px;
+    }
+
+    #about-us img {
+        max-width: 100%;
+    }
+
+    #about-us > div > :first-child {
+        gap: 30px;
+    }
+
+    #about-us > div > :first-child h2 {
+        font-size: 20px;
+    }
+
+    #about-us > div > :first-child p {
+        font-size: 11px;
+        line-height: 20px;
+    }
+
+    #about-us > div > :first-child button {
+        font-size: 13px;
+        padding: 6px 14px;
+        margin-top: 18px;
+    }
+
+    #about-us > div > :first-child button + button {
+        margin-left: 15px;
+    }
+
+    #about-us > div > :last-child {
+        max-width: 100%;
+        margin-top: 40px;
+        padding: 0 10px;
+    }
+
+    #about-us > div > :last-child svg {
+        width: 30px;
+        height: 30px;
+        top: 12px;
+        left: -20px;
+    }
+
+    #about-us > div > :last-child .right-cotation {
+        right: -5px;
+        top: 55px;
+    }
+
+    #about-us > div > :last-child h3 {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    #about-us > div > :last-child p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    #about-us > div > :last-child .mission-statement {
+        font-size: 13px;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #about-us > div {
+        padding: 35px 20px;
+    }
+
+    #about-us > div > :first-child h2 {
+        font-size: 18px;
+    }
+
+    #about-us > div > :first-child p {
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+    #about-us > div > :first-child button {
+        font-size: 12px;
+        padding: 5px 12px;
+        margin-top: 15px;
+    }
+
+    #about-us > div > :first-child button + button {
+        margin-left: 12px;
+    }
+
+    #about-us > div > :last-child {
+        margin-top: 35px;
+        padding: 0 5px;
+    }
+
+    #about-us > div > :last-child svg {
+        width: 28px;
+        height: 28px;
+        top: 10px;
+        left: -18px;
+    }
+
+    #about-us > div > :last-child .right-cotation {
+        right: -3px;
+        top: 50px;
+    }
+
+    #about-us > div > :last-child h3 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    #about-us > div > :last-child p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    #about-us > div > :last-child .mission-statement {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #about-us > div {
+        padding: 30px 20px;
+    }
+
+    #about-us > div > :first-child h2 {
+        font-size: 16px;
+    }
+
+    #about-us > div > :first-child p {
+        font-size: 9px;
+        line-height: 16px;
+    }
+
+    #about-us > div > :first-child button {
+        font-size: 11px;
+        padding: 4px 10px;
+        margin-top: 12px;
+    }
+
+    #about-us > div > :first-child button + button {
+        margin-left: 10px;
+    }
+
+    #about-us > div > :last-child {
+        margin-top: 30px;
+    }
+
+    #about-us > div > :last-child svg {
+        width: 25px;
+        height: 25px;
+        top: 8px;
+        left: -15px;
+    }
+
+    #about-us > div > :last-child .right-cotation {
+        right: -2px;
+        top: 45px;
+    }
+
+    #about-us > div > :last-child h3 {
+        font-size: 14px;
+    }
+
+    #about-us > div > :last-child p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    #about-us > div > :last-child .mission-statement {
+        font-size: 11px;
+        margin-top: 12px;
+    }
+}

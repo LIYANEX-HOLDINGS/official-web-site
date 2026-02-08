@@ -17,7 +17,7 @@ header {
     transform: translateX(-50%);
     width: 100%;
     padding: 10px 0;
-    z-index: 2;
+    z-index: 20;
 }
 
 header > div {
